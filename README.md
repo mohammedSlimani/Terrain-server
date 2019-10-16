@@ -1,2 +1,3 @@
 # Terrain-server
-It is The backend of Terrain-Client
+ Stop Fighting for your Beloved "Terrain". We are here to solve this!
+
