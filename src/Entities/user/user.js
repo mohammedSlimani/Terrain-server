@@ -1,4 +1,5 @@
-export default function MakeUser({ Id }){
+export default function MakeBuildUser({ Id }){
+
     return function makeUser({ id, facebookId, image, name }){
         if(!Id.isValid(id)){
             throw new Error('User Id not valid');
@@ -10,7 +11,7 @@ export default function MakeUser({ Id }){
             throw new Error('User doesnt have Image')
         }
         if(!name){
-            throw new Error('USer doenst have Name')
+            throw new Error('USer doesnt have Name')
         }
 
         return Object.freeze({
