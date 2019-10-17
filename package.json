@@ -1,0 +1,14 @@
+{
+  "name": "terrain-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mohammedSlimani/Terrain-server.git",
+  "author": "Mohammed slimani <slimani.med.21@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
